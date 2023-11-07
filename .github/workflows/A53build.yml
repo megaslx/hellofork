@@ -1,8 +1,8 @@
-name: Start build ssr+  one platforms
+name: Start build ssr+ one platforms
 
 on:
  workflow_dispatch:
-
+ 
 jobs:
   build:
     name: Test ${{ matrix.arch }}
