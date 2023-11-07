@@ -19,6 +19,9 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: permission
+        run: chmod -R 777 .
+
       - name: Determine branch name
         run: |
           BRANCH="main"
